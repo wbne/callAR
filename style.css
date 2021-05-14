@@ -1,0 +1,85 @@
+.onTop{
+  position: absolute;
+  top: 80%;
+  display: flex;
+  z-index: 10;
+  width: 100%;
+}
+
+.buttonOption{
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.subButton{
+  width: 100%;
+  height: 100%;
+}
+
+#mainpage{
+  text-align: center;
+}
+
+.header{
+  background-color: #E20074;
+  color: white;
+  padding: 1px;
+  margin-bottom: 20px;
+}
+
+.textbody{
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  line-height: 1.7;
+}
+
+.footer{
+  padding: 1px;
+  color: #E20074;
+  font-size: 12px;
+  width: 100vw;
+  bottom: 10px;
+  position: absolute;
+  display: flex;
+}
+
+.loading{
+  z-index: -10;
+  font-size: 36px;
+  color: #E20074;
+  position: absolute;
+  top: 40vh;
+  left: 10vw;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #E20074;
+  color: white;
+  border: none;
+  padding: 20px;
+  font-size: 24px;
+}
+
+button:hover {
+  opacity: .5;
+}
